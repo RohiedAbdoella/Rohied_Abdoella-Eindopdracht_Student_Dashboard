@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+.info-student {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  padding: 30px;
+  list-style-type: none;
+  padding: 15px;
+}
+  
+.photo-student {
+  border: 5px solid #4a90e1;
+  max-width: 220px;
+  max-height: 500px;
+  border-radius: 5%;
+  align-items: center;
+}
+
+.wrap-student {
+  background-image: url("../images/profile_background.jpg"); ;
+  text-align: center;
+  border: 2px solid rgb(0, 143, 199);
+  border-radius: 10px;
+  margin: 5px;
+  padding: 15px;
+  font-size: 5px;
+  word-wrap: break-word;
+  min-width: 220px;
+  min-height: auto;
+}
+
+  .wrap-student p {
+    color:#4a90e1;
+    font-size: 20px;
+  }
+
+.graduate_logo {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  height: 50px;
+  color: white;
+}

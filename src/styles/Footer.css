@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+.social-container  {
+    background: #4a90e1;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    font-family: 'Baloo 2';
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    }
+
+.social-container, .push {
+    height: 50px;
+    }
+
+a   {
+    margin: 0 1rem;
+    padding: 15px;
+    transition: transform 350ms;
+    color: #bae1fc;
+    }
+  
+a:hover {
+    transform: translateY(-10px);
+    color: white;
+    }
+  
+h4  {
+    margin:15px;
+    color: white;
+    }

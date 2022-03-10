@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left:auto; 
+    margin-right:auto;
+    }
+
+th, td {
+    border: 1px solid white;
+    font-size: 20px;
+    text-align: left;
+    padding: 5px;
+    font-family: 'Baloo 2';
+}
+
+th  {
+    background-color: #4a90e1;
+    color: white;
+}
+
+td {
+    background-color: #bae1fc;
+    font-size: 15px;
+}
+
+.filter {
+    text-overflow: bold;
+    background-color: #4a90e1;
+    font-size: 20px;
+    font-family: 'Baloo 2';
+    color: white;
+    width: 80%;
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.table-sorting {
+    font-size: 17px;
+    background-color: #bae1fc;
+    font-family: 'Baloo 2';
+    }
